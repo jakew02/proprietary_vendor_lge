@@ -16,22 +16,26 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+$(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
 
+# Prebuilt APKs
 PRODUCT_PACKAGES += \
-    qcrilmsgtunnel \
+    atfwd \
+    datastatusnotification \
     shutdownlistener \
+    TimeService
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    com.google.widevine.software.drm.jar \
+    imscmlibrary.jar \
+    ims-common.jar \
+    org.simalliance.openmobileapi.jar \
     qcnvitems \
     qcrilhook
 
+#Prebuilt Privileged APKs
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api
-
-PRODUCT_PACKAGES += \
-    libFlacSwDec \
-    libmm-abl
-
-PRODUCT_PACKAGES += \
-    libtime_genoff
-
-$(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
+    Ims4 \
+    qcrilmsgtunnel \
+    RCSProvider
