@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/lge/g4-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
@@ -772,7 +771,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/lge/g4-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/g4-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/lge/g4-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so
+    vendor/lge/g4-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so
